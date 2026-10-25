@@ -1,0 +1,13 @@
+--[[
+    SCRIPT HUB
+    Server Eggs
+    Creador: Agustin
+]]
+
+local nombre = "Script Hub"
+
+print("Iniciando " .. nombre .. "...")
+
+loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/apiluarmor-hub/CeboScripts-Egg/refs/heads/main/Server-Eggs.lua"
+))()
